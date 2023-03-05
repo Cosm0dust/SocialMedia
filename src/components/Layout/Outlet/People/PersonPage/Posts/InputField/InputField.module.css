@@ -1,0 +1,15 @@
+.post{
+    display: flex;
+}
+
+.post img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100%;
+}
+span{
+    margin-left: 30px;
+}
+
+
