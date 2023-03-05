@@ -1,0 +1,246 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "user": "jenny4real",
+      "handle": "@jenny4real",
+      "text": "Ugh, why do men always feel the need to mansplain things to me?",
+      "timestamp": "2022-02-22T10:31:15.000Z",
+      "fullname": "Jenny Doe",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "user": "emmacodes",
+      "handle": "@emmacodes",
+      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
+      "timestamp": "2022-02-22T14:47:23.000Z",
+      "fullname": "Emma Johnson",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "user": "jenny4real",
+      "handle": "@jenny4real",
+      "text": "Ugh, why do men always feel the need to mansplain things to me?",
+      "timestamp": "2022-02-22T10:31:15.000Z",
+      "fullname": "Jenny Doe",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "user": "emmacodes",
+      "handle": "@emmacodes",
+      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
+      "timestamp": "2022-02-22T14:47:23.000Z",
+      "fullname": "Emma Johnson",
+      "postId": 3
+    },
+    {
+      "id": 5,
+      "user": "jenny4real",
+      "handle": "@jenny4real",
+      "text": "Ugh, why do men always feel the need to mansplain things to me?",
+      "timestamp": "2022-02-22T10:31:15.000Z",
+      "fullname": "Jenny Doe",
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "user": "emmacodes",
+      "handle": "@emmacodes",
+      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
+      "timestamp": "2022-02-22T14:47:23.000Z",
+      "fullname": "Emma Johnson",
+      "postId": 5
+    }
+  ],
+  "posts": [
+    {
+      "text": "I don't know why guys think it's okay to catcall girls on the street. It's never been flattering, it's just creepy.",
+      "timestamp": "2022-02-23T19:12:20.000Z",
+      "retweets": 43,
+      "likes": 147,
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "text": "Being a girl means having to constantly be aware of your surroundings and take extra precautions just to feel safe.",
+      "timestamp": "2022-02-22T15:30:45.000Z",
+      "retweets": 102,
+      "likes": 438,
+      "id": 2,
+      "userId": 1
+    },
+    {
+      "text": "Why do guys always think we're overreacting when we express our emotions? It's not like we're asking for the moon.",
+      "timestamp": "2022-02-21T08:45:10.000Z",
+      "retweets": 76,
+      "likes": 319,
+      "id": 3,
+      "userId": 2
+    },
+    {
+      "text": "It's frustrating how society still judges women for being single in their 30s. It's not a crime to prioritize your career or personal goals.",
+      "timestamp": "2022-02-20T16:22:55.000Z",
+      "retweets": 54,
+      "likes": 225,
+      "id": 4,
+      "userId": 2
+    },
+    {
+      "text": "Why is it so hard for men to understand that catcalling is not a compliment? It's harassment.",
+      "timestamp": "2022-02-19T11:13:20.000Z",
+      "retweets": 103,
+      "likes": 520,
+      "id": 5,
+      "userId": 3
+    },
+    {
+      "text": "Why do some men feel threatened by successful women? It's not a competition. We can all win.",
+      "timestamp": "2022-02-18T20:01:43.000Z",
+      "retweets": 67,
+      "likes": 315,
+      "id": 6,
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "text": "I don't know why guys think it's okay to catcall girls on the street. It's never been flattering, it's just creepy.",
+      "timestamp": "2022-02-23T19:12:20.000Z",
+      "retweets": 43,
+      "likes": 147,
+      "userId": 4
+    },
+    {
+      "text": "kkllpp",
+      "retweets": 0,
+      "likes": 0,
+      "timestamp": "04.03.23",
+      "userId": 2,
+      "id": 574
+    },
+    {
+      "text": "vvv",
+      "retweets": 0,
+      "likes": 0,
+      "timestamp": "04.03.23",
+      "userId": 2,
+      "id": 158
+    },
+    {
+      "text": "nnn",
+      "retweets": 0,
+      "likes": 0,
+      "timestamp": "04.03.23",
+      "userId": 2,
+      "id": 938
+    },
+    {
+      "text": "lllll",
+      "retweets": 0,
+      "likes": 0,
+      "timestamp": "04.03.23",
+      "userId": 1,
+      "id": 949
+    },
+    {
+      "text": "lll",
+      "retweets": 0,
+      "likes": 0,
+      "timestamp": "04.03.23",
+      "userId": 3,
+      "id": 14
+    },
+    {
+      "id": 378,
+      "text": "kkk",
+      "timestamp": "04.03.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 4
+    },
+    {
+      "id": 403,
+      "text": "ььбь",
+      "timestamp": "05.03.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 1
+    },
+    {
+      "id": 559,
+      "text": "mm",
+      "timestamp": "05.03.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Gale Doe",
+      "age": 33,
+      "email": "john.doe@example.com",
+      "phone": "555-555-5555",
+      "city": "Anytown",
+      "avatar": "https://w0.peakpx.com/wallpaper/8/910/HD-wallpaper-women-women-indoors-face-makeup-portrait-model-portrait-display-thumbnail.jpg",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sed mi faucibus dapibus vel ac lorem. Nulla facilisi. Vivamus vel gravida dolor. Integer accumsan enim et lacinia dapibus. Donec ultrices turpis vitae blandit sodales.",
+      "interests": [
+        "hiking",
+        "reading",
+        "traveling"
+      ],
+      "quote": "A girl should be two things: who and what she wants."
+    },
+    {
+      "id": 2,
+      "fullName": "Gale Doe",
+      "age": 33,
+      "email": "john.doe@example.com",
+      "phone": "555-555-5555",
+      "city": "Anytown",
+      "avatar": "https://w0.peakpx.com/wallpaper/8/910/HD-wallpaper-women-women-indoors-face-makeup-portrait-model-portrait-display-thumbnail.jpg",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sed mi faucibus dapibus vel ac lorem. Nulla facilisi. Vivamus vel gravida dolor. Integer accumsan enim et lacinia dapibus. Donec ultrices turpis vitae blandit sodales.",
+      "interests": [
+        "hiking",
+        "reading",
+        "traveling"
+      ],
+      "quote": "A girl should be two things: who and what she wants."
+    },
+    {
+      "id": 3,
+      "fullName": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 22,
+      "phone": "555-555-5555",
+      "city": "Anytown",
+      "avatar": "https://w0.peakpx.com/wallpaper/391/999/HD-wallpaper-women-looking-at-viewer-makeup-model-red-lipstick-brunette-long-hair-portrait-face-portrait-display-gray-eyes-thumbnail.jpg",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sed mi faucibus dapibus vel ac lorem. Nulla facilisi. Vivamus vel gravida dolor. Integer accumsan enim et lacinia dapibus. Donec ultrices turpis vitae blandit sodales.",
+      "interests": [
+        "music",
+        "cooking",
+        "sports"
+      ],
+      "quote": "The thing women have yet to learn is nobody gives you power. You just take it."
+    },
+    {
+      "id": 4,
+      "fullName": "Alla Johnson",
+      "email": "bob.johnson@example.com",
+      "phone": "555-555-5555",
+      "age": 18,
+      "city": "Anytown",
+      "avatar": "https://w0.peakpx.com/wallpaper/1013/600/HD-wallpaper-lana-rhoades-women-model-blue-eyes-portrait-outdoors-portrait-display-thumbnail.jpg",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sed mi faucibus dapibus vel ac lorem. Nulla facilisi. Vivamus vel gravida dolor. Integer accumsan enim et lacinia dapibus. Donec ultrices turpis vitae blandit sodales.",
+      "interests": [
+        "photography",
+        "art",
+        "movies"
+      ],
+      "quote": "The best protection any woman can have... is courage"
+    }
+  ]
+}

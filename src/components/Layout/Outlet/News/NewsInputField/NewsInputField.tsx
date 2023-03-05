@@ -1,11 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {useCreatePostMutation} from "../../../../../store/users.api";
 
-const NewsInputField = () => {
+const InputField = () => {
+    const [text, setText] = useState('')
+    const [ createPost, {isError}] = useCreatePostMutation();
+
+
+    const handleText = async () => {
+        if(text){
+            await createPost({text: text, userId: 1})
+            setText('')
+        }
+    }
+
     return (
-        <div>
-            
-            </div>
+        <label>
+            <input  type="text" value={text} onChange={e=>setText(e.target.value)}/>
+            <button onClick={handleText}>Create Post</button>
+        </label>
     );
 };
 
-export default NewsInputField;
+export default InputField;

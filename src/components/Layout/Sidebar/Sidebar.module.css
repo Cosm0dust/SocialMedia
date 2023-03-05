@@ -1,0 +1,19 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.item {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.active {
+  color: gold;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */
