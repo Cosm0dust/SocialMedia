@@ -1,15 +1,21 @@
 import React from 'react';
-import s from './Dialogs.module.css'
 import Dialog from "./Dialog/Dialog";
+import s from './Dialogs.module.css'
+import DialogNav from "./DialogNav/DialogNav";
+import CreateMassage from "./CreateMessage/CreateMassage";
 
 
 const Dialogs = () => {
+
     return (
         <div className={s.dialogs}>
-            Dialogs
-           <Dialog number ={1} name = 'V' message='Hello'/>
-           <Dialog number ={2} name = 'f' message='fello'/>
-           <Dialog number ={3} name = 'c' message='cello'/>
+            <div className={s.dialogs__nav} >
+                <DialogNav/>
+            </div>
+            <div>
+                <Dialog/>
+                <CreateMassage />
+            </div>
         </div>
     );
 };

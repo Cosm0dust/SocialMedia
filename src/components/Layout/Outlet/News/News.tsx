@@ -1,20 +1,53 @@
 import React, {useEffect, useState} from 'react';
-import {useGetPostsQuery, useGetUserByIdQuery} from "../../../../store/users.api";
-import {useParams} from "react-router-dom";
-import {IPost} from "../../../../models/models";
+import {
+    useGetNewsQuery,
+    useGetPaginatedNewsQuery,
+    useGetPostsQuery,
+    useGetUserByIdQuery
+} from "../../../../store/users.api";
+import s from './News.module.css'
+import {INews, IPost} from "../../../../models/models";
 import New from "./New/New";
-import InputField from "../People/PersonPage/Posts/InputField/InputField";
-import NewsInputField from "./NewsInputField/NewsInputField";
-import Post from "../People/PersonPage/Posts/Post/Post";
+import {getPageCount, getPagesArray} from "../../../../utils/pages";
 
 const News = () => {
-    const { data, error, isLoading } = useGetPostsQuery();
+
+    const [news, setNews] = useState<INews[]>([])
+    const [totalPages, setTotalPages] = useState(0)
+    const [limit, setLimit] = useState(10)
+    const [page, setPage] = useState(1)
+    let pagesArray = getPagesArray(totalPages)
+    const { data, error, isLoading } = useGetNewsQuery();
+    const {data: data1, isLoading: isLoading1, error: error1} = useGetPaginatedNewsQuery(page)
+
+
+    useEffect(()=>{
+        const totalCount = (data as Array<INews>)?.length
+        setTotalPages(getPageCount(totalCount, limit))
+        },
+    )
+
+    useEffect(()=>{
+
+    }, [page])
 
 
     return (
         <div>
-            <NewsInputField />
+            {
+                data1 && (data1 as INews[]).map((n: INews) =>(
+                    <New
+                        key={+n.title}
+                        title={n.title}
 
+                    />
+                ))
+            }
+            <div className={s.page_wrapper}>{pagesArray.map(p =>
+                <span key={p}
+                      onClick={() => setPage(p)}
+                      className={page === p ? s.page + ' ' + s.page__current : s.page}>{p}</span>
+            )}</div>
         </div>
     );
 };

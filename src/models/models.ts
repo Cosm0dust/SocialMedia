@@ -1,6 +1,33 @@
 import {FetchBaseQueryError} from "@reduxjs/toolkit/query";
 import {SerializedError} from "@reduxjs/toolkit";
 
+
+
+interface Source  {
+    id: string;
+    name: string;
+};
+
+export interface INews{
+    source: Source;
+    author: string;
+    title: string;
+    description: string;
+    url: string;
+    urlToImage: string;
+    publishedAt: string;
+    content: string;
+};
+
+export interface IMessage{
+    id: number
+    from: string
+    userId: number
+    text: string
+    to: string
+    timestamp: number
+}
+
 export interface IComment {
     id: number;
     user: string;
@@ -17,19 +44,22 @@ export interface IPost {
     timestamp:  string;
     retweets: number;
     likes: number;
-    userId: number
+    userId: number;
+    retweetedFrom?: string;
 }
 
 export interface IUser {
-    id: number;
+    id: number | string;
     fullName: string;
+    password?: string;
     age: number;
     email: string;
     phone: string;
     city: string;
     avatar: string;
     bio: string;
-    interests: string[];
+    interestsArr?: { name: string }[] | undefined;
+    interests: string[] | undefined;
     quote: string;
     posts?: IPost[];
 }

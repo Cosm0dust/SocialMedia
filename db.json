@@ -57,7 +57,7 @@
   ],
   "posts": [
     {
-      "text": "I don't know why guys think it's okay to catcall girls on the street. It's never been flattering, it's just creepy.",
+      "text": "xccxx",
       "timestamp": "2022-02-23T19:12:20.000Z",
       "retweets": 43,
       "likes": 147,
@@ -65,12 +65,15 @@
       "userId": 1
     },
     {
-      "text": "Being a girl means having to constantly be aware of your surroundings and take extra precautions just to feel safe.",
-      "timestamp": "2022-02-22T15:30:45.000Z",
-      "retweets": 102,
-      "likes": 438,
-      "id": 2,
-      "userId": 1
+      "post": {
+        "text": "mmmm",
+        "retweets": 0,
+        "likes": 0,
+        "timestamp": "09.03.23",
+        "userId": 1,
+        "id": 2
+      },
+      "id": 2
     },
     {
       "text": "Why do guys always think we're overreacting when we express our emotions? It's not like we're asking for the moon.",
@@ -137,14 +140,6 @@
       "id": 938
     },
     {
-      "text": "lllll",
-      "retweets": 0,
-      "likes": 0,
-      "timestamp": "04.03.23",
-      "userId": 1,
-      "id": 949
-    },
-    {
       "text": "lll",
       "retweets": 0,
       "likes": 0,
@@ -156,43 +151,78 @@
       "id": 378,
       "text": "kkk",
       "timestamp": "04.03.23",
-      "retweets": 0,
+      "retweets": 1,
       "likes": 0,
       "userId": 4
     },
     {
-      "id": 403,
-      "text": "ььбь",
-      "timestamp": "05.03.23",
+      "id": 470,
+      "text": "чяч",
+      "timestamp": "09.03.23",
+      "retweets": 0,
+      "likes": 3,
+      "userId": 1
+    },
+    {
+      "id": 786,
+      "text": "kkl",
+      "timestamp": "14.03.23",
       "retweets": 0,
       "likes": 0,
       "userId": 1
     },
     {
-      "id": 559,
-      "text": "mm",
-      "timestamp": "05.03.23",
-      "retweets": 0,
-      "likes": 0,
-      "userId": 1
+      "id": 256,
+      "email": "laise@gmail.com",
+      "fullName": "Ivan Om",
+      "password": "mmmmmm",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "age": "21",
+      "phone": "0330330303",
+      "city": "Roma",
+      "posts": []
+    },
+    {
+      "id": 620,
+      "email": "laise@gmail.com",
+      "fullName": "m, m,m",
+      "password": "mmmmm",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "age": "21",
+      "phone": "0955899502",
+      "city": "Sumy",
+      "posts": []
     }
   ],
   "users": [
     {
       "id": 1,
-      "fullName": "Gale Doe",
-      "age": 33,
-      "email": "john.doe@example.com",
-      "phone": "555-555-5555",
-      "city": "Anytown",
-      "avatar": "https://w0.peakpx.com/wallpaper/8/910/HD-wallpaper-women-women-indoors-face-makeup-portrait-model-portrait-display-thumbnail.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sed mi faucibus dapibus vel ac lorem. Nulla facilisi. Vivamus vel gravida dolor. Integer accumsan enim et lacinia dapibus. Donec ultrices turpis vitae blandit sodales.",
+      "fullName": "Loooooo dsdsмсмсc v",
+      "age": "21",
+      "email": "laise@gmail.com",
+      "phone": "342435",
+      "city": "nnnn",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "bio": "мсмс",
       "interests": [
-        "hiking",
-        "reading",
-        "traveling"
+        "счсчсч",
+        "счсччс",
+        "счсччс"
       ],
-      "quote": "A girl should be two things: who and what she wants."
+      "quote": "сммс",
+      "interestsArr": [
+        {
+          "name": "счсчсч"
+        },
+        {
+          "name": "счсччс"
+        },
+        {
+          "name": "счсччс"
+        }
+      ],
+      "password": "mmmmmm",
+      "posts": []
     },
     {
       "id": 2,
@@ -208,6 +238,7 @@
         "reading",
         "traveling"
       ],
+      "password": "mmmmmm",
       "quote": "A girl should be two things: who and what she wants."
     },
     {
@@ -224,12 +255,14 @@
         "cooking",
         "sports"
       ],
+      "password": "mmmmmm",
       "quote": "The thing women have yet to learn is nobody gives you power. You just take it."
     },
     {
       "id": 4,
       "fullName": "Alla Johnson",
       "email": "bob.johnson@example.com",
+      "password": "mmmmmm",
       "phone": "555-555-5555",
       "age": 18,
       "city": "Anytown",
@@ -241,6 +274,538 @@
         "movies"
       ],
       "quote": "The best protection any woman can have... is courage"
+    },
+    {
+      "id": 127,
+      "email": "laises@gmail.com",
+      "fullName": "Loooooo dsds",
+      "password": "mmmmmm",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "age": "21",
+      "phone": "342435",
+      "city": "nnnn",
+      "posts": []
     }
-  ]
-}
+  ],
+  "messages": [
+    {
+      "id": 139,
+      "text": "nnn",
+      "timestamp": 1679415627876,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 620,
+      "text": "nnn",
+      "timestamp": 1679415628197,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 96,
+      "text": "nnnn",
+      "timestamp": 1679415631577,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 624,
+      "text": "mmm,m",
+      "timestamp": 1679415666863,
+      "senderName": "john.doe@example.com",
+      "to": "127",
+      "userId": 2
+    },
+    {
+      "id": 576,
+      "text": "mmm,m",
+      "timestamp": 1679415695939,
+      "senderName": "john.doe@example.com",
+      "to": "127",
+      "userId": 2
+    },
+    {
+      "id": 133,
+      "text": "mmm,mkkk",
+      "timestamp": 1679415700817,
+      "senderName": "john.doe@example.com",
+      "to": "127",
+      "userId": 2
+    },
+    {
+      "id": 938,
+      "text": "mnmnmn",
+      "timestamp": 1679415718910,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 372,
+      "text": "fdsfds",
+      "timestamp": 1679415742852,
+      "senderName": "john.doe@example.com",
+      "to": "127",
+      "userId": 2
+    }
+  ],
+  "news": [
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "8BitDo controllers now work with Apple devices",
+      "description": "You no longer need to pass on 8BitDo's gamepads if you use Apple products. 8BitDo has confirmed that its controllers now officially support iPhones, iPads and Macs thanks to both firmware upgrades and Apple's recent iOS 16.3, iPadOS 16.3, tvOS 16.3 and macOS …",
+      "url": "https://www.engadget.com/8bitdo-controllers-now-work-with-apple-devices-163657954.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ekLqo_VW4Z9CPYD1CjRT2A--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-03/b7e1d4c0-c738-11ed-bbf0-5c28c6d322eb.cf.jpg",
+      "publishedAt": "2023-03-20T16:36:57Z",
+      "content": "You no longer need to pass on 8BitDo's gamepads if you use Apple products. 8BitDo has confirmed that its controllers now officially support iPhones, iPads and Macs thanks to both firmware upgrades an… [+1007 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Igor Bonifacic",
+      "title": "Xbox head says Microsoft's mobile game store could arrive next year",
+      "description": "Microsoft is preparing to launch an Xbox store on iOS and Android as early as next year, according to Phil Spencer. The head of the company’s gaming division shared the timeline in a Financial Times\r\n interview published on Monday, noting the plan is dependen…",
+      "url": "https://www.engadget.com/xbox-head-says-microsofts-mobile-game-store-could-arrive-next-year-180007168.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/swJUeV23gSs6Nmc_oi1N7w--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2021-08/9f593830-f926-11eb-bfe7-b8254f7b93c1.cf.jpg",
+      "publishedAt": "2023-03-20T18:00:07Z",
+      "content": "Microsoft is preparing to launch an Xbox store on iOS and Android as early as next year, according to Phil Spencer. The head of the companys gaming division shared the timeline in a Financial Times\r\n… [+1859 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Sarah Fielding",
+      "title": "Apple's AirTag 4-pack is on sale for $90",
+      "description": "Anyone looking to keep track of all their devices is in for a little treat. Apple's AirTag four-pack is currently on sale for $90. It equates to a 9 percent discount, knocking off a bit, but the lowest we've seen was $80. Still not a bad deal now, though, if …",
+      "url": "https://www.engadget.com/apple-airtag-4-pack-sale-134557134.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/.YbTB.6Z.95NnqsTimbFbg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-03/5e6c68b0-c71f-11ed-b7f8-4742d55e229f.cf.jpg",
+      "publishedAt": "2023-03-20T13:45:57Z",
+      "content": "All products recommended by Engadget are selected by our editorial team, independent of our parent company. Some of our stories include affiliate links. If you buy something through one of these link… [+1207 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Kyle Barr",
+      "title": "Apple's Delaying Products, Avoiding AI in Desperate Bid to Avoid Layoffs",
+      "description": "Apple does not want to resort to layoffs, unlike many other major tech companies, which have been downsizing since around the turn of 2023. The tech giant is so desperate to not become another Google, Microsoft, or Meta (which thought 11,000 Meta staff layoff…",
+      "url": "https://gizmodo.com/apple-ai-siri-chatgpt-homepod-screen-layoffs-delays-1850243150",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/cf97adab98c4818fc984c06206ea548a.jpg",
+      "publishedAt": "2023-03-20T15:45:00Z",
+      "content": "Apple does not want to resort to layoffs, unlike many other major tech companies, which have been downsizing since around the turn of 2023. The tech giant is so desperate to not become another Google… [+3466 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Florence Ion",
+      "title": "Apple's iPhone 15 Pro May Ditch Physical Volume and Mute Buttons",
+      "description": "We won’t know anything for sure about the iPhone 15 until it’s launched later this year, but we’re expecting big changes. We’ve already mentioned it in our iPhone 15 rumor roundup, but this year’s Pro models may ditch physical buttons for touch-based buttons …",
+      "url": "https://gizmodo.com/apple-iphone-15-touch-buttons-taptic-volume-mute-pro-ma-1850244813",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/347c8c2e3bc8e28ee81ce15bbd249555.jpg",
+      "publishedAt": "2023-03-20T20:10:00Z",
+      "content": "We wont know anything for sure about the iPhone 15 until its launched later this year, but were expecting big changes. Weve already mentioned it in our iPhone 15 rumor roundup, but this years Pro mod… [+2161 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Mack DeGeurin",
+      "title": "If You Are a Russian Diplomat, You Should Be Using a Fliphone",
+      "description": "While governments around the world are racing to place restrictions on TikTok over perceived espionage and security concerns, Kremlin leaders in Moscow have their sights set on another target: smartphones. The officials, according to Russian newspaper Kommers…",
+      "url": "https://gizmodo.com/iphone-russian-diplomat-kremlin-putin-use-flip-phones-1850243229",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/287ff4aa016e2fef3462ac218030c990.jpg",
+      "publishedAt": "2023-03-20T15:41:54Z",
+      "content": "While governments around the world are racing to place restrictions on TikTok over perceived espionage and security concerns, Kremlin leaders in Moscow have their sights set on another target: smartp… [+2869 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Central"
+      },
+      "author": "techkritiko@gmail.com (Jay Bonggolto)",
+      "title": "The Galaxy Watch 6 series' battery specs have surfaced in a new listing",
+      "description": "Samsung's upcoming Galaxy Watch 6 and Watch 6 Classic may have the same battery capacities for each size category.",
+      "url": "https://www.androidcentral.com/wearables/samsung-galaxy-watch-6-battery-specs-leak",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/dy7eQ45GRhXsfGFUdpsJ36-1200-80.jpeg",
+      "publishedAt": "2023-03-20T05:03:45Z",
+      "content": "<ul><li>A new listing on a Chinese regulator has revealed the battery specs of Samsung's next Galaxy Watch series.</li><li>Both the Galaxy Watch 6 and Watch 6 Classic appear to share a similar batter… [+1985 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Presented by Max Rushden with Barry Glendenning, Robyn Cowen and Will Unwin. Produced by Joel Grove and our executive producer is Danielle Stephens.",
+      "title": "Conte’s off-pitch outburst and Mitrovic’s on-field rage – Football Weekly",
+      "description": "Max Rushden is joined by Barry Glendenning, Robyn Cowen and Will Unwin to review the weekend action, from the Premier League and FA CupRate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Fac…",
+      "url": "https://www.theguardian.com/football/audio/2023/mar/20/antonio-conte-aleksandar-mitrovic-fa-cup-premier-league-football-weekly-podcast",
+      "urlToImage": "https://i.guim.co.uk/img/media/8d5eb4bb410243c7cb3642f2085db442f3a7cd9e/452_56_1393_836/master/1393.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=95fe7659767c48fe952f5ac0846535c7",
+      "publishedAt": "2023-03-20T12:43:58Z",
+      "content": "Rate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Facebook, Twitter and email.\r\nToday: Antonio Conte delivers a quite astonishin… [+609 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Ann Lee",
+      "title": "‘There was cruelty and unpleasantness’: Emily Watson on school, stardom and sex scenes in her 50s",
+      "description": "The actor grew up in an alleged cult and was expelled after her explicit role in Breaking the Waves. She discusses method acting, the #MeToo movement and mixing work and familyEmily Watson had big plans to turn up for our interview looking immaculately made u…",
+      "url": "https://www.theguardian.com/film/2023/mar/20/there-was-cruelty-and-unpleasantness-emily-watson-on-school-stardom-and-sex-scenes-in-her-50s",
+      "urlToImage": "https://i.guim.co.uk/img/media/a8da94c6ad950753602a7984054f96e225f57d18/0_221_7995_4800/master/7995.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=022907be0c387c2073c61ea1fdc257ce",
+      "publishedAt": "2023-03-20T06:00:00Z",
+      "content": "Emily Watson had big plans to turn up for our interview looking immaculately made up, but then family members started getting sick and her morning fell apart. When my husbands ill, chaos descends, sh… [+12761 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Pay Launches in South Korea",
+      "description": "After a years-long wait, Apple Pay today launched in South Korea, allowing those living in the country to use Apple's payment system to make contactless payments using the iPhone or Apple Watch.\n\n\n\n\n\nApple has been working to bring ‌Apple Pay‌ to South Korea …",
+      "url": "https://www.macrumors.com/2023/03/20/apple-pay-south-korea/",
+      "urlToImage": "https://images.macrumors.com/t/3AafKQrSjReo-42sG45rd9to9SU=/2500x/article-new/2021/07/Apple-Pay-Feature.jpg",
+      "publishedAt": "2023-03-20T20:52:34Z",
+      "content": "After a years-long wait, Apple Pay today launched in South Korea, allowing those living in the country to use Apple's payment system to make contactless payments using the iPhone or Apple Watch.\r\nApp… [+1156 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "8BitDo Gaming Controllers Now Compatible With iPhone, iPad, Apple TV and Mac",
+      "description": "A selection of controllers from gaming company 8BitDo are now compatible with Apple's product lineup, thanks to a firmware update that was released today.\n\n\n\n\r\n\n\nThe 8BitDo SN30 Pro for Android, SN30 Pro, Pro+, Pro 2, Ultimate 2.4g and Lite SE can be used wit…",
+      "url": "https://www.macrumors.com/2023/03/20/8bitdo-controllers-apple-devices/",
+      "urlToImage": "https://images.macrumors.com/t/hgXOzhgJTe0t5Mm5p-XeG--58JU=/2000x/article-new/2023/03/8bitdo-controllers-apple-support.jpg",
+      "publishedAt": "2023-03-20T22:34:01Z",
+      "content": "A selection of controllers from gaming company 8BitDo are now compatible with Apple's product lineup, thanks to a firmware update that was released today.\r\nThe 8BitDo SN30 Pro for Android, SN30 Pro, … [+1000 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Apple's Flagship Mumbai Store to Open in April, Followed by Second Store in New Delhi",
+      "description": "Apple will open its flagship India retail store in Mumbai next month, after several delays, soon to be followed by another store in New Delhi, reports The Economic Times, citing industry executives.\n\n\n\n\n\nLocated in the Jim World Drive mall and covering 22,000…",
+      "url": "https://www.macrumors.com/2023/03/20/apple-mumbai-store-opening-april/",
+      "urlToImage": "https://images.macrumors.com/t/yQIJcb8Y-avkal6pF9GMKjehEcY=/2304x/article-new/2020/08/apple-india.jpg",
+      "publishedAt": "2023-03-20T12:17:02Z",
+      "content": "Apple will open its flagship India retail store in Mumbai next month, after several delays, soon to be followed by another store in New Delhi, reports The Economic Times, citing industry executives.\r… [+1800 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Matt Elliott",
+      "title": "World Baseball Classic 2023: How to Watch Japan vs. Mexico Tonight From Anywhere - CNET",
+      "description": "Japan and Mexico play tonight, and the winner will face the US in the WBC final.",
+      "url": "https://www.cnet.com/tech/services-and-software/world-baseball-classic-2023-how-to-watch-japan-vs-mexico-tonight-from-anywhere/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/d18df43a46a1a46fc2e88a8b13a76ff181a0fa86/hub/2023/03/20/89c469f5-3636-4448-96cb-51b836392e4b/gettyimages-1473879716.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2023-03-20T17:44:56Z",
+      "content": "Japan and Mexico face off tonight in Miami with a spot in the World Baseball Classic championship on the line. Roki Sasaki, a 21-year-old whose fastball routinely tops 100 mph, will start on the moun… [+5546 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Apple's HomePod With a Screen Delayed Until Next Year at the Earliest",
+      "description": "Apple's project to design its first HomePod with a screen has been pushed back until next year at the earliest, as part of a series of cost-cutting measures and belt-tightening efforts to make its operations more efficient.\n\n\n\n\n\nIn his latest Power On newslet…",
+      "url": "https://www.macrumors.com/2023/03/20/homepod-with-screen-delayed-next-year/",
+      "urlToImage": "https://images.macrumors.com/t/ygkHtLXG3Ezp-6anw0erdUmeKww=/1920x/article-new/2022/01/HomePod-With-Screen.jpg",
+      "publishedAt": "2023-03-20T10:57:38Z",
+      "content": "Apple's project to design its first HomePod with a screen has been pushed back until next year at the earliest, as part of a series of cost-cutting measures and belt-tightening efforts to make its op… [+1267 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Slashdot.org"
+      },
+      "author": "msmash",
+      "title": "Microsoft Plans Mobile Games Store To Rival Apple and Google",
+      "description": "Microsoft is preparing to launch a new app store for games on iPhones and Android smartphones as soon as next year if its $75bn acquisition of Activision Blizzard is cleared by regulators, according to the head of its Xbox business. From a report: New rules r…",
+      "url": "https://apple.slashdot.org/story/23/03/20/0541237/microsoft-plans-mobile-games-store-to-rival-apple-and-google",
+      "urlToImage": "https://a.fsdn.com/sd/topics/microsoft_64100.png",
+      "publishedAt": "2023-03-20T15:20:00Z",
+      "content": "New rules requiring Apple and Google to open up their mobile platforms to app stores owned and operated by other companies are expected to come into force from March 2024 under the EU's Digital Marke… [+1426 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "gmayer@insider.com (Grace Mayer)",
+      "title": "The Kremlin has reportedly told Russian officials to throw away their iPhones by the end of the month",
+      "description": "Ahead of Russia's 2024 presidential election, some officials were reportedly told to toss their iPhones over information-security concerns.",
+      "url": "https://www.businessinsider.com/kremlin-tells-russian-officials-throw-out-apple-iphones-report-2023-3",
+      "urlToImage": "https://i.insider.com/641892175c7c99001991b4b0?width=1200&format=jpeg",
+      "publishedAt": "2023-03-20T18:42:34Z",
+      "content": "Some Russian officials were advised by the Kremlin to ditch their Apple iPhones by the end of March over information-security concerns, the Russian business publication Kommersant first reported.\r\nTh… [+2121 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "wrojas@insider.com (Warren Rojas)",
+      "title": "As John Fetterman heals, his Senate staff soldiers on with the help of veteran lawmakers and crisis bonding: 'We all have each other's back'",
+      "description": "John Fetterman and his burgeoning Capitol Hill staff remain laser-focused on serving Pennsylvanians while he seeks treatment for clinical depression.",
+      "url": "https://www.businessinsider.com/john-fetterman-clinical-depression-treatment-senate-staff-bands-together-pennsylvania-2023-3",
+      "urlToImage": "https://i.insider.com/64185fe1fa3bcb001907f7fd?width=1200&format=jpeg",
+      "publishedAt": "2023-03-20T19:03:25Z",
+      "content": "A lot has happened in the 33 days since Pennsylvania's junior senator John Fetterman last stepped foot in the Senate chamber. \r\nHis colleagues have cast nearly four dozen votes since the stroke-survi… [+7691 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ReadWrite"
+      },
+      "author": "Deanna Ritchie",
+      "title": "PPC Automation Layering: How to Embrace Effective Tools and Solutions",
+      "description": "After years of hand-wringing about industrial automation’s potentially devastating consequences for the blue-collar workforce, it has finally dawned on the professional class that the robots are coming for them too. True, this may not happen right away. But i…",
+      "url": "https://readwrite.com/ppc-automation-layering-how-to-embrace-effective-tools-and-solutions/",
+      "urlToImage": "https://readwrite.com/wp-content/uploads/2023/03/PPC-Automation-Layering.jpg",
+      "publishedAt": "2023-03-20T18:00:27Z",
+      "content": "After years of hand-wringing about industrial automations potentially devastating consequences for the blue-collar workforce, it has finally dawned on the professional class that the robots are comin… [+7816 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "Eduardo Arcos",
+      "title": "iPhone 15: se filtra el nuevo botón de volumen y la desaparición del interruptor para silenciar el móvil",
+      "description": "Tal y como se viene rumoreando desde hace meses, el iPhone 15 contará con nuevos botones para subir y bajar el volumen. Estos serían hápticos, es decir, no hay movimiento físico, pero al ser presionados, vibrarán dar retroalimentación al usuario. Similar a la…",
+      "url": "http://hipertextual.com/2023/03/iphone-15-nuevo-boton-volumen-filtrado",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/03/iphone-15-botones-volumen.jpg",
+      "publishedAt": "2023-03-20T16:50:40Z",
+      "content": "Tal y como se viene rumoreando desde hace meses, el iPhone 15 contará con nuevos botones para subir y bajar el volumen. Estos serían hápticos, es decir, no hay movimiento físico, pero al ser presiona… [+2226 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "Luis Miranda",
+      "title": "Microsoft lanzará una app store en iOS y Android si se aprueba la compra de Activision Blizzard",
+      "description": "Microsoft tiene un as bajo la manga si consigue concretar la compra de Activision Blizzard. De acuerdo con Financial Times, la tecnológica lanzará una tienda de aplicaciones en iPhone y Android en 2024. La empresa aprovecharía la entrada en vigor de la Ley de…",
+      "url": "http://hipertextual.com/2023/03/microsoft-app-store-juegos-xbox-call-of-duty-ios-android",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/03/microsoft_phil_spencer_se_rie_de_sony.jpg",
+      "publishedAt": "2023-03-20T18:20:40Z",
+      "content": "Microsoft tiene un as bajo la manga si consigue concretar la compra de Activision Blizzard. De acuerdo con Financial Times, la tecnológica lanzará una tienda de aplicaciones en iPhone y Android en 20… [+4489 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "Rubén Chicharro",
+      "title": "Probamos el Samsung Galaxy Book 3 Pro 360: ¿es este el mejor convertible para profesionales?",
+      "description": "Aunque los Samsung Galaxy S23, S23 Plus y Galaxy S23 Ultra suelen acaparar todas las miradas, la compañía surcoreana también tiende a anunciar a principios de año su nueva línea de portátiles de gama alta; los Galaxy Book. Este 2023, la firma ha presentado ju…",
+      "url": "http://hipertextual.com/2023/03/samsung-galaxy-book-3-pro-360-review-analisis-opinion",
+      "urlToImage": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2023/03/samsung-galaxy-book-pro-360-001.jpg?fit=2560%2C1440&quality=50&strip=all&ssl=1",
+      "publishedAt": "2023-03-20T13:01:00Z",
+      "content": "Aunque los Samsung Galaxy S23, S23 Plus y Galaxy S23 Ultra suelen acaparar todas las miradas, la compañía surcoreana también tiende a anunciar a principios de año su nueva línea de portátiles de gama… [+10002 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Tom Nardi",
+      "title": "The Rise and (Eventual) Fall of the SIM Card",
+      "description": "There are few devices that better exemplify the breakneck pace of modern technical advancement than the mobile phone. In the span of just a decade, we went from flip phones and polyphonic ringtones…",
+      "url": "https://hackaday.com/2023/03/20/the-rise-and-eventual-fall-of-the-sim-card/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2023/03/Sim.jpg",
+      "publishedAt": "2023-03-20T14:00:23Z",
+      "content": "There are few devices that better exemplify the breakneck pace of modern technical advancement than the mobile phone. In the span of just a decade, we went from flip phones and polyphonic ringtones t… [+8308 chars]"
+    },
+    {
+      "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+      },
+      "author": "Judy Kurtz",
+      "title": "Howard Stern says Jon Stewart would ‘win in a slam dunk’ if he ran for president",
+      "description": "Howard Stern says Jon Stewart would “win in a slam dunk” if he were to run for president, as he urged the former “Daily Show” host to launch a White House...",
+      "url": "https://thehill.com/blogs/in-the-know/3908993-howard-stern-says-jon-stewart-would-win-in-a-slam-dunk-if-he-ran-for-president/",
+      "urlToImage": "https://media.zenfs.com/en/the_hill_articles_341/a8d31228b961d504115daab4b1520cf1",
+      "publishedAt": "2023-03-20T18:49:11Z",
+      "content": "Howard Stern says Jon Stewart would win in a slam dunk if he were to run for president, as he urged the former Daily Show host to launch a White House bid on Monday.\r\nIf President Biden chose not to … [+1927 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Alice Newcome-Beill",
+      "title": "Some 8BitDo controllers now work with iPhone, iPad, Mac, and Apple TV",
+      "description": "The latest firmware update for 8BitDo’s most popular controllers extends their compatibility to Apple iPhone, iPad, Mac, and Apple TV devices running the most recent software update.",
+      "url": "https://www.polygon.com/23648539/8bitdo-controller-apple-ios-ipad-support-update",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/ClQ9PWuCJwKDgKwIHXAl_xcniCk=/0x196:2560x1536/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24522969/8._Pro_2___iPad.jpg",
+      "publishedAt": "2023-03-20T18:08:17Z",
+      "content": "8BitDo released a new firmware update for several of its wireless controllers that adds compatibility with iPhones, iPads, Apple TV hardware, and Mac computers that are running their latest software … [+910 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Oli Welsh",
+      "title": "Xbox hoping to launch mobile game store as early as next year",
+      "description": "Microsoft’s Phil Spencer has said that the company wants to bring an Xbox mobile games app store to iOS and Android when EU law requires Apple and Google to open their platforms, and said that acquiring Activision Blizzard was key to this strategy",
+      "url": "https://www.polygon.com/23648499/xbox-mobile-games-app-store-activision-blizzard",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/-OZJs2bI5Ire17Qm9SKKJaoR85I=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22687100/xbox_game_pass_phone.jpg",
+      "publishedAt": "2023-03-20T16:55:32Z",
+      "content": "Phil Spencer, Microsofts head of gaming, has told the Financial Times Microsoft would like to launch Xbox-branded mobile gaming app stores on both Android and iOS ideally as soon as next year.\r\nUntil… [+2999 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Liam Mathews",
+      "title": "9 Keanu Reeves movies that reveal the many faces of John Wick",
+      "description": "Keanu Reeves’ new John Wick movie is out, so it’s a great time to revisit the best Keanu movies and performances that helped define him as a great actor.",
+      "url": "https://www.polygon.com/what-to-watch/23640292/best-keanu-reeves-movies-john-wick",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/2_Nsastlbay7zvUdn7LZzlAFMoc=/0x131:1793x1070/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24508019/The_Gift_129538147_large.jpeg",
+      "publishedAt": "2023-03-20T17:00:00Z",
+      "content": "For much of his career, Keanu Reeves had a reputation as a mediocre actor. Everyone knew he was amazing in action scenes, but people joked about how wooden he could be when required to emote. More re… [+13226 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "HuffPost"
+      },
+      "author": "Jazmin Tolliver",
+      "title": "Denzel Washington May Star In ‘Gladiator’ Sequel — And Twitter Is Beyond Excited",
+      "description": "The upcoming film is expected to follow Ridley Scott’s 2000 blockbuster.",
+      "url": "https://www.huffpost.com/entry/denzel-washington-gladiator-sequel_n_64188f04e4b0fef152456d84",
+      "urlToImage": "https://img.huffingtonpost.com/asset/64188f9c240000310028ce9a.jpeg?ops=1200_630",
+      "publishedAt": "2023-03-20T21:43:54Z",
+      "content": "Denzel Washington is reportedly in the final stage of negotiations to star in the highly anticipated Gladiator sequel and Twitter users cant hold back their excitement.\r\nWashingtons casting would mar… [+2433 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "Javier Marquez",
+      "title": "Microsoft confirma que está desarrollando una tienda alternativa a Google Play y App Store. Tiene más sentido que nunca",
+      "description": "La nueva Microsoft de Satya Nadella no se queda dormida en los laureles y, literalmente, va a por todas. La empresa, que es un peso pesado en el sector de la computación en la nube con Azure y está revitalizando sus propuestas de búsqueda y ofimática con inte…",
+      "url": "https://www.xataka.com/aplicaciones/microsoft-confirma-que-esta-desarrollando-tienda-alternativa-a-google-play-app-store-tiene-sentido-que-nunca",
+      "urlToImage": "https://i.blogs.es/0413ec/microsoft-app-store-1/840_560.jpeg",
+      "publishedAt": "2023-03-20T19:04:00Z",
+      "content": "La nueva Microsoft de Satya Nadella no se queda dormida en los laureles y, literalmente, va a por todas. La empresa, que es un peso pesado en el sector de la computación en la nube con Azure y está r… [+2179 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "Yúbal Fernández",
+      "title": "Cómo saber quién ha visitado tu perfil de TikTok activando el historial de visualizaciones",
+      "description": "Vamos a explicarte cómo puedes saber quién ha visitado tu perfil de TikTok, activando una opción que te envía avisos cuando alguien nuevo lo hace. Se trata del historial de visualizaciones, que te dice quién ha visitado tu perfil en los últimos 30 días.\n<!-- …",
+      "url": "https://www.xataka.com/basics/como-saber-quien-ha-visitado-tu-perfil-tiktok-activando-avisos",
+      "urlToImage": "https://i.blogs.es/b1ef80/tiktok/840_560.jpeg",
+      "publishedAt": "2023-03-20T10:15:40Z",
+      "content": "Vamos a explicarte cómo puedes saber quién ha visitado tu perfil de TikTok, activando una opción que te envía avisos cuando alguien nuevo lo hace. Se trata del historial de visualizaciones, que te di… [+1714 chars]"
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "USA TODAY, Naledi Ushe, USA TODAY",
+      "title": "Gwyneth Paltrow to go to trial 7 years after Utah ski slopes crash",
+      "description": "Gwyneth Paltrow was sued for allegedly crashing into a fellow skier in Park City, Utah, in 2016. She countersued, accusing the plaintiff of the crash.",
+      "url": "https://www.usatoday.com/story/entertainment/celebrities/2023/03/20/gwyneth-paltrow-trial-2016-utah-ski-crash/11507703002/",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2023/03/20/USAT/282797da-b5c0-4110-a909-6f6534c0f5db-GTY_1436557405.jpg?auto=webp&crop=4999,2812,x0,y298&format=pjpg&width=1200",
+      "publishedAt": "2023-03-20T13:12:36Z",
+      "content": "Gwyneth Paltrow is due to stand trial in Utah after being sued for a ski crash in 2016, referred to as a \"hit and run.\" \r\nPaltrow's trial is set for eight days, starting Tuesday. It's unclear if the … [+2204 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "The Kim Komando Show",
+      "title": "Best ways to block scam calls (Do this for your older relatives, too!)",
+      "description": "When it comes to telemarketing and scam calls, the best thing to do is not pick up the phone. But it’s not always easy to tell whether an incoming call is legitimate.",
+      "url": "https://www.foxnews.com/tech/best-ways-block-scam-calls-do-this-your-older-relatives-too",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/03/2-INCOMING-CALL.jpg",
+      "publishedAt": "2023-03-20T17:53:23Z",
+      "content": "The phone rings, and as soon as you say hello, the person on the other end starts babbling about saving money on car insurance. \r\nDont say anything! They could be recording your voice, which theyll u… [+4952 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Peter Hunt Szpytek",
+      "title": "Pixel Watch update brings a much-requested Apple Watch feature",
+      "description": "The Pixel Watch launched without one major health feature that's found in most other smartwatches on the market. Today, it's finally being added.",
+      "url": "https://www.digitaltrends.com/mobile/google-pixel-watch-brings-much-requested-feature-fall-detection-news/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/10/Pixel-Watch-Wrist-Menu.jpg?resize=1200%2C630&p=1",
+      "publishedAt": "2023-03-20T21:25:07Z",
+      "content": "The Pixel Watch is a solid first outing as Google’s debut smartwatch. However, it’s still lacking a handful of features that early adopters have been requesting that are found on similar devices. Luc… [+1919 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Simon Cohen",
+      "title": "Why Sonos Era 300 buyers should switch to Amazon Music",
+      "description": "Sonos' newest speaker can deliver Dolby Atmos and hi-res audio, but only one streaming music service offers both formats.",
+      "url": "https://www.digitaltrends.com/home-theater/sonos-era-300-amazon-music/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/03/Sonos-era-300-8.jpeg?resize=1200%2C630&p=1",
+      "publishedAt": "2023-03-20T18:00:43Z",
+      "content": "If youre thinking of buying the new Sonos Era 300  the companys first smart speaker designed specifically for spatial audio with Dolby Atmos Music and youre not currently an Amazon Music subscriber, … [+3528 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Alex Blake",
+      "title": "6 things I want to see in the new iMac",
+      "description": "A new 24-inch iMac is reportedly on the way, complete with new features and better performance. Here’s everything we want to see in Apple’s next all-in-one Mac.",
+      "url": "https://www.digitaltrends.com/computing/imac-24-2023-rumors-news-price-release-date/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/07/Apples-24-inch-M1-iMac-is-an-all-in-one-solution.jpg?resize=1200%2C630&p=1",
+      "publishedAt": "2023-03-20T10:00:37Z",
+      "content": "Apples 24-inch iMac got a major redesign in spring 2021, but its been a long two years with no updates to speak of since then. Many of us are impatiently waiting to see what comes next.\r\nNow, though,… [+5786 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Asahilinux.org"
+      },
+      "author": null,
+      "title": "Paving the Road to Vulkan on Asahi Linux",
+      "description": "Porting Linux to Apple Silicon",
+      "url": "https://asahilinux.org/2023/03/road-to-vulkan/",
+      "urlToImage": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
+      "publishedAt": "2023-03-20T15:56:12Z",
+      "content": "Hello everyone, Asahi Lina here!\r\nAs you probably know, I’ve been working together with the rest of the Asahi Linux team on open source GPU drivers for Apple Silicon platforms. It’s been a wild ride!… [+30656 chars]"
+    }]}

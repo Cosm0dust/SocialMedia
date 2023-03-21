@@ -11,7 +11,6 @@ const Sidebar = () => {
                 <NavLink to='people' className={({isActive}) => isActive ? s.active : s.item} >People</NavLink>
                 <NavLink to='dialogs' className={({isActive}) => isActive ? s.active : s.item} >Messages</NavLink>
                 <NavLink to='news' className={({isActive}) => isActive ? s.active : s.item} >News</NavLink>
-                <NavLink to='music' className={({isActive}) => isActive ? s.active : s.item} >Music</NavLink>
             </div>
         </div>
     );

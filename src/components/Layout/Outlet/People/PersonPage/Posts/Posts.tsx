@@ -3,26 +3,24 @@ import s from './Posts.module.css'
 import {useSelector} from "react-redux";
 import Post from "./Post/Post";
 import {IPost} from "../../../../../../models/models";
-import {useCreatePostMutation, useGetPostsQuery, useGetUsersQuery} from "../../../../../../store/users.api";
+import { useGetPostsQuery} from "../../../../../../store/users.api";
 import InputField from "./InputField/InputField";
 
 interface PostsProps {
-
     fullName: string
     avatar: string
     profId:string | undefined
-    key: number;
-
+    main: boolean | null
 }
 
-const Posts = ({avatar, fullName, profId, key}: PostsProps) => {
+const Posts = ({avatar, fullName, profId, main}: PostsProps) => {
     const { data, error, isLoading } = useGetPostsQuery();
 
 
 
     return (
         <>
-            <InputField />
+            {main && <InputField/>}
             {
                 data && (data as IPost[]).map((post: IPost) =>(
                     <Post
@@ -38,6 +36,7 @@ const Posts = ({avatar, fullName, profId, key}: PostsProps) => {
                 post ={post}
                 userId={post.userId}
                 profId={profId}
+                main = {main}
                 />
                 )).reverse()
             }
