@@ -1,7 +1,9 @@
 import React from 'react';
+import s from './EditProfile.module.css'
 import {IUser} from "../../../../../../models/models";
 import {SubmitHandler, useFieldArray, useForm} from "react-hook-form";
 import {useUpdateProfileMutation} from "../../../../../../store/users.api";
+import Button1 from "../../../../../../UIelems/Button1/Button1";
 
 interface UserProfileProps {
     user: IUser;
@@ -44,58 +46,63 @@ const EditProfile = ({user, setModal}: UserProfileProps) => {
     };
 
     return (
-        <form  onSubmit={handleSubmit(onSubmit)}>
+        <form className={s.formState}  onSubmit={handleSubmit(onSubmit)}>
+            <h2>Edit Profile</h2>
             <label>
-                Full Name:
+                <span>Full Name:</span>
                 <input type="text" defaultValue={user.fullName} {...register("fullName", { required: true })} />
 
                 {errors.fullName && <span>This field is required</span>}
             </label>
             <label>
-                Age:
+                <span>Age:</span>
                 <input type="text" defaultValue={user.age} {...register("age", { required: true })} />
                 {errors.age && <span>This field is required</span>}
             </label>
             <label>
-                Email:
+                <span>Email:</span>
                 <input type="text" defaultValue={user.email} {...register("email", { required: true })} />
                 {errors.email && <span>This field is required</span>}
             </label>
             <label>
-                Phone:
+                <span>Phone:</span>
                 <input type="number" defaultValue={user.phone} {...register("phone", { required: true })} />
                 {errors.phone && <span>This field is required</span>}
             </label>
             <label>
-                City:
+                <span>City:</span>
                 <input type="text" defaultValue={user.city} {...register("city", { required: true })} />
                 {errors.city && <span>This field is required</span>}
             </label>
 
-            Interests:
-            <div>
-                {fields.map((field, index) => (
-                    <div key={index + 1}>
-                        <label>
-                            <input type="text" {...register(`interestsArr.${index}.name`)} defaultValue={field.name} />
-                        </label>
-                        <button type="button" onClick={() => remove(index)}>Delete</button>
-                    </div>
-                ))}
-                <button type="button" onClick={() => append({ name: "" })}>Add interest</button>
-            </div>
-            {errors.interests && <span>This field is required</span>}
-            <label>
-                Bio:
-                <textarea defaultValue={user.bio} {...register("bio", { required: true })} />
+            <label className={s.interests}>
+                <span>Interests:</span>
+                <div className={s.interests__fields}>
+                    {fields.map((field, index) => (
+                        <div key={index + 1}>
+                            <label>
+                                <input type="text" {...register(`interestsArr.${index}.name`)}
+                                       defaultValue={field.name}/>
+                            </label>
+                            <button className={s.d_button} type="button" onClick={() => remove(index)}>Delete</button>
+                        </div>
+                    ))}
+                    <button className={s.button1} type="button" onClick={() => append({name: ""})}>Add interest</button>
+                </div>
+                {errors.interests && <span>This field is required</span>}
+            </label>
+
+            <label className={s.bio}>
+                <span>Bio:</span>
+                <textarea className={s.area} defaultValue={user.bio} {...register("bio", { required: true })} />
                 {errors.bio && <span>This field is required</span>}
             </label>
             <label>
-                Quote:
+                <span>Quote:</span>
                 <input type="text" defaultValue={user.quote} {...register("quote", { required: true })} />
                 {errors.quote && <span>This field is required</span>}
             </label>
-            <button type="submit">Submit</button>
+            <button className={s.button1} type="submit">Submit</button>
         </form>
     );
 };

@@ -16,7 +16,7 @@ const DialogNav = () => {
     return (
         <ul className={s.nav}>
             {data && (data as unknown as Array<IUser>)?.map((user: IUser) => (
-                <NavLink key={user.id} to={user.id.toString()}>{user.email}</NavLink>
+                <NavLink className={({isActive}) => isActive ? s.active : s.item} key={user.id} to={user.id.toString()}>{user.email}</NavLink>
             )) }
         </ul>
     );

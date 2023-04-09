@@ -1,199 +1,4 @@
 {
-  "comments": [
-    {
-      "id": 1,
-      "user": "jenny4real",
-      "handle": "@jenny4real",
-      "text": "Ugh, why do men always feel the need to mansplain things to me?",
-      "timestamp": "2022-02-22T10:31:15.000Z",
-      "fullname": "Jenny Doe",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "user": "emmacodes",
-      "handle": "@emmacodes",
-      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
-      "timestamp": "2022-02-22T14:47:23.000Z",
-      "fullname": "Emma Johnson",
-      "postId": 1
-    },
-    {
-      "id": 3,
-      "user": "jenny4real",
-      "handle": "@jenny4real",
-      "text": "Ugh, why do men always feel the need to mansplain things to me?",
-      "timestamp": "2022-02-22T10:31:15.000Z",
-      "fullname": "Jenny Doe",
-      "postId": 3
-    },
-    {
-      "id": 4,
-      "user": "emmacodes",
-      "handle": "@emmacodes",
-      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
-      "timestamp": "2022-02-22T14:47:23.000Z",
-      "fullname": "Emma Johnson",
-      "postId": 3
-    },
-    {
-      "id": 5,
-      "user": "jenny4real",
-      "handle": "@jenny4real",
-      "text": "Ugh, why do men always feel the need to mansplain things to me?",
-      "timestamp": "2022-02-22T10:31:15.000Z",
-      "fullname": "Jenny Doe",
-      "postId": 5
-    },
-    {
-      "id": 6,
-      "user": "emmacodes",
-      "handle": "@emmacodes",
-      "text": "I'm so tired of being told to smile more. I don't exist just for your visual pleasure, thanks.",
-      "timestamp": "2022-02-22T14:47:23.000Z",
-      "fullname": "Emma Johnson",
-      "postId": 5
-    }
-  ],
-  "posts": [
-    {
-      "text": "xccxx",
-      "timestamp": "2022-02-23T19:12:20.000Z",
-      "retweets": 43,
-      "likes": 147,
-      "id": 1,
-      "userId": 1
-    },
-    {
-      "post": {
-        "text": "mmmm",
-        "retweets": 0,
-        "likes": 0,
-        "timestamp": "09.03.23",
-        "userId": 1,
-        "id": 2
-      },
-      "id": 2
-    },
-    {
-      "text": "Why do guys always think we're overreacting when we express our emotions? It's not like we're asking for the moon.",
-      "timestamp": "2022-02-21T08:45:10.000Z",
-      "retweets": 76,
-      "likes": 319,
-      "id": 3,
-      "userId": 2
-    },
-    {
-      "text": "It's frustrating how society still judges women for being single in their 30s. It's not a crime to prioritize your career or personal goals.",
-      "timestamp": "2022-02-20T16:22:55.000Z",
-      "retweets": 54,
-      "likes": 225,
-      "id": 4,
-      "userId": 2
-    },
-    {
-      "text": "Why is it so hard for men to understand that catcalling is not a compliment? It's harassment.",
-      "timestamp": "2022-02-19T11:13:20.000Z",
-      "retweets": 103,
-      "likes": 520,
-      "id": 5,
-      "userId": 3
-    },
-    {
-      "text": "Why do some men feel threatened by successful women? It's not a competition. We can all win.",
-      "timestamp": "2022-02-18T20:01:43.000Z",
-      "retweets": 67,
-      "likes": 315,
-      "id": 6,
-      "userId": 3
-    },
-    {
-      "id": 7,
-      "text": "I don't know why guys think it's okay to catcall girls on the street. It's never been flattering, it's just creepy.",
-      "timestamp": "2022-02-23T19:12:20.000Z",
-      "retweets": 43,
-      "likes": 147,
-      "userId": 4
-    },
-    {
-      "text": "kkllpp",
-      "retweets": 0,
-      "likes": 0,
-      "timestamp": "04.03.23",
-      "userId": 2,
-      "id": 574
-    },
-    {
-      "text": "vvv",
-      "retweets": 0,
-      "likes": 0,
-      "timestamp": "04.03.23",
-      "userId": 2,
-      "id": 158
-    },
-    {
-      "text": "nnn",
-      "retweets": 0,
-      "likes": 0,
-      "timestamp": "04.03.23",
-      "userId": 2,
-      "id": 938
-    },
-    {
-      "text": "lll",
-      "retweets": 0,
-      "likes": 0,
-      "timestamp": "04.03.23",
-      "userId": 3,
-      "id": 14
-    },
-    {
-      "id": 378,
-      "text": "kkk",
-      "timestamp": "04.03.23",
-      "retweets": 1,
-      "likes": 0,
-      "userId": 4
-    },
-    {
-      "id": 470,
-      "text": "чяч",
-      "timestamp": "09.03.23",
-      "retweets": 0,
-      "likes": 3,
-      "userId": 1
-    },
-    {
-      "id": 786,
-      "text": "kkl",
-      "timestamp": "14.03.23",
-      "retweets": 0,
-      "likes": 0,
-      "userId": 1
-    },
-    {
-      "id": 256,
-      "email": "laise@gmail.com",
-      "fullName": "Ivan Om",
-      "password": "mmmmmm",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
-      "age": "21",
-      "phone": "0330330303",
-      "city": "Roma",
-      "posts": []
-    },
-    {
-      "id": 620,
-      "email": "laise@gmail.com",
-      "fullName": "m, m,m",
-      "password": "mmmmm",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
-      "age": "21",
-      "phone": "0955899502",
-      "city": "Sumy",
-      "posts": []
-    }
-  ],
   "users": [
     {
       "id": 1,
@@ -277,14 +82,159 @@
     },
     {
       "id": 127,
-      "email": "laises@gmail.com",
       "fullName": "Loooooo dsds",
+      "age": "vccv",
+      "email": "laises@gmail.com",
+      "password": "mmmmmm",
+      "phone": "342435",
+      "city": "nnnn",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "bio": "dvccvck\\\\",
+      "interests": [
+        "m,m,m",
+        "m,mm,"
+      ],
+      "quote": "sasaas",
+      "interestsArr": [
+        {
+          "name": "m,m,m"
+        },
+        {
+          "name": "m,mm,"
+        }
+      ],
+      "posts": []
+    },
+    {
+      "id": 461,
+      "email": "bonnn@gmail.com",
+      "fullName": "dscas dsaacdas",
+      "password": "mmmmmm",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "age": "12",
+      "phone": "0955899555",
+      "city": "Sumy",
+      "posts": []
+    },
+    {
+      "id": 708,
+      "email": "joint@gmail.com",
+      "fullName": "kmlklkm klmlklkm",
       "password": "mmmmmm",
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
       "age": "21",
-      "phone": "342435",
-      "city": "nnnn",
+      "phone": "0955899888",
+      "city": "Sjjj",
       "posts": []
+    },
+    {
+      "id": 589,
+      "email": "vany@gmail.com",
+      "fullName": "Ivam Kotel",
+      "password": "mmmmmm",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc8RuR7tmjDBxSwaeXj4AHHVZfkyGiXM9-mAiCQV-gQ&s",
+      "age": "21",
+      "phone": "0955877777",
+      "city": "Sumy",
+      "posts": []
+    }
+  ],
+  "posts": [
+    {
+      "id": 816,
+      "text": "vcvcvccv",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 127
+    },
+    {
+      "id": 99,
+      "text": "vccvcvcvbvbvbdgdg",
+      "timestamp": "09.04.23",
+      "retweets": 1,
+      "likes": 0,
+      "userId": 127
+    },
+    {
+      "id": 121,
+      "text": "dfdfdfd",
+      "timestamp": "09.04.23",
+      "retweets": 2,
+      "likes": 1,
+      "userId": 127
+    },
+    {
+      "id": 782,
+      "text": "dfdfdfd",
+      "timestamp": "09.04.23",
+      "retweets": 1,
+      "likes": 0,
+      "userId": 127
+    },
+    {
+      "id": 636,
+      "text": "vvcvcdfddsffdsfds",
+      "timestamp": "09.04.23",
+      "retweets": 1,
+      "likes": 0,
+      "userId": 127
+    },
+    {
+      "id": 696,
+      "text": "vccvcv",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 593,
+      "text": "ddngdfn",
+      "timestamp": "09.04.23",
+      "retweets": 3,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 36,
+      "text": "ddngdfn",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 351,
+      "text": "ddngdfn",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 101,
+      "text": "dfdfdfd",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 908,
+      "text": "vccvcvcvbvbvbdgdg",
+      "timestamp": "09.04.23",
+      "retweets": 0,
+      "likes": 0,
+      "userId": 2
+    },
+    {
+      "id": 131,
+      "text": "vcvccvcv",
+      "timestamp": "09.04.23",
+      "retweets": 1,
+      "likes": 0,
+      "userId": 1
     }
   ],
   "messages": [
@@ -351,6 +301,165 @@
       "senderName": "john.doe@example.com",
       "to": "127",
       "userId": 2
+    },
+    {
+      "id": 705,
+      "text": "",
+      "timestamp": 1681037680418,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 579,
+      "text": "cvcv",
+      "timestamp": 1681037684310,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 509,
+      "text": "cvcv",
+      "timestamp": 1681047697355,
+      "senderName": "laises@gmail.com",
+      "to": "708",
+      "userId": 127
+    },
+    {
+      "id": 850,
+      "text": "cvcv",
+      "timestamp": 1681049058768,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 323,
+      "text": "vczvczvcv",
+      "timestamp": 1681049082871,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 256,
+      "text": "fvcc",
+      "timestamp": 1681049596511,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 905,
+      "text": "vcvcvc",
+      "timestamp": 1681050535925,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 502,
+      "text": "vccvcvcv",
+      "timestamp": 1681050584442,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 413,
+      "text": "bvbvbv",
+      "timestamp": 1681051739480,
+      "senderName": "laises@gmail.com",
+      "to": "2",
+      "userId": 127
+    },
+    {
+      "id": 485,
+      "text": "bvbvvb",
+      "timestamp": 1681051971779,
+      "senderName": "laises@gmail.com",
+      "userId": 127
+    },
+    {
+      "id": 979,
+      "text": "bvbvvbv",
+      "timestamp": 1681051982880,
+      "senderName": "laises@gmail.com",
+      "to": "1",
+      "userId": 127
+    },
+    {
+      "id": 129,
+      "text": "dfdffdfd",
+      "timestamp": 1681056655298,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
+    },
+    {
+      "id": 677,
+      "text": "dvccv",
+      "timestamp": 1681059308259,
+      "senderName": "laise@gmail.com",
+      "to": "2",
+      "userId": 1
+    },
+    {
+      "id": 405,
+      "text": "vcvvc",
+      "timestamp": 1681059323166,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
+    },
+    {
+      "id": 497,
+      "text": "vccvcvc",
+      "timestamp": 1681059371665,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
+    },
+    {
+      "id": 222,
+      "text": "vcvccvvc",
+      "timestamp": 1681059383401,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
+    },
+    {
+      "id": 102,
+      "text": "vvccvvcvc",
+      "timestamp": 1681059417006,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
+    },
+    {
+      "id": 823,
+      "text": "vvcvcvc",
+      "timestamp": 1681059931174,
+      "senderName": "laise@gmail.com",
+      "to": "708",
+      "userId": 1
+    },
+    {
+      "id": 571,
+      "text": "vcvccvvc",
+      "timestamp": 1681059936655,
+      "senderName": "laise@gmail.com",
+      "to": "589",
+      "userId": 1
+    },
+    {
+      "id": 642,
+      "text": "vcvccv",
+      "timestamp": 1681059941655,
+      "senderName": "laise@gmail.com",
+      "to": "127",
+      "userId": 1
     }
   ],
   "news": [
@@ -418,19 +527,6 @@
       "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/347c8c2e3bc8e28ee81ce15bbd249555.jpg",
       "publishedAt": "2023-03-20T20:10:00Z",
       "content": "We wont know anything for sure about the iPhone 15 until its launched later this year, but were expecting big changes. Weve already mentioned it in our iPhone 15 rumor roundup, but this years Pro mod… [+2161 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Mack DeGeurin",
-      "title": "If You Are a Russian Diplomat, You Should Be Using a Fliphone",
-      "description": "While governments around the world are racing to place restrictions on TikTok over perceived espionage and security concerns, Kremlin leaders in Moscow have their sights set on another target: smartphones. The officials, according to Russian newspaper Kommers…",
-      "url": "https://gizmodo.com/iphone-russian-diplomat-kremlin-putin-use-flip-phones-1850243229",
-      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/287ff4aa016e2fef3462ac218030c990.jpg",
-      "publishedAt": "2023-03-20T15:41:54Z",
-      "content": "While governments around the world are racing to place restrictions on TikTok over perceived espionage and security concerns, Kremlin leaders in Moscow have their sights set on another target: smartp… [+2869 chars]"
     },
     {
       "source": {
@@ -808,4 +904,6 @@
       "urlToImage": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
       "publishedAt": "2023-03-20T15:56:12Z",
       "content": "Hello everyone, Asahi Lina here!\r\nAs you probably know, I’ve been working together with the rest of the Asahi Linux team on open source GPU drivers for Apple Silicon platforms. It’s been a wild ride!… [+30656 chars]"
-    }]}
+    }
+  ]
+}

@@ -1,14 +1,13 @@
 .App{
   display: grid;
   margin: 0 auto;
-  width: 60vw;
+  width: 55em;
   grid-template-areas:
       'h h '
       's c'
       'f f';
-
-  grid-template-rows: minmax(10%, auto) 1fr minmax(20%, auto);
-  grid-template-columns: 8vw 10fr;
+  grid-template-rows: auto 1fr 3em;
+  grid-template-columns: 1.5fr 10fr;
   grid-gap: 10px;
 }
 .header{
@@ -24,5 +23,4 @@
 .footer{
   grid-area: f;
   background-color: deepskyblue;
-  height: 10vh;
 }

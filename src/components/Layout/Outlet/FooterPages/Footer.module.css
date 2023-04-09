@@ -1,0 +1,12 @@
+.footerPage {
+  min-height: 35em;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.footerPage h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

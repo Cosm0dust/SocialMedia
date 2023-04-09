@@ -144,8 +144,8 @@ export const usersApi = createApi({
                 }
             },
         }),
-        createPost: build.mutation<IPost, { text: string, userId: number, name?: string }>({
-            query: ({  text, userId, name }) => ({
+        createPost: build.mutation<IPost, { text: string, userId: number}>({
+            query: ({  text, userId}) => ({
                 url: 'posts',
                 method: 'POST',
                 body: {
@@ -154,7 +154,6 @@ export const usersApi = createApi({
                     timestamp: formatDate(new Date()) ,
                     retweets: 0,
                     likes: 0,
-                    retweetedFrom: name,
                     userId
                 },
             }),

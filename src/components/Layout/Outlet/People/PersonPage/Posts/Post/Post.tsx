@@ -1,38 +1,37 @@
 import React, {useEffect, useState} from 'react';
 import s from './Post.module.css'
-import Comments from "./Comments/Comments";
 import {formatDate, IComment, IPost} from "../../../../../../../models/models";
 import {
     useChangeLikesCountMutation, useCreatePostMutation,
     useDeletePostMutation,
     useUpdatePostMutation
 } from "../../../../../../../store/users.api";
-import { useLocation} from 'react-router-dom';
-import {log} from "util";
+import Input1 from "../../../../../../../UIelems/Input1/Input1";
 
 interface PostProps {
-    key: number
     id: number;
     comments?: IComment[] | undefined;
     text: string;
     timestamp: string;
     retweets: number;
     likes: number;
-    fullName: string
+    profName?: string
+    retweetedFrom?: string;
     avatar: string
     post : IPost
     userId: number
-    profId: string | undefined
-    main: boolean | null
+    profId: string| null | undefined
+    main: boolean | null;
+    paramId: string| undefined;
 }
 
-const Post = ({key, id, likes, text, retweets, timestamp , comments, fullName, avatar, post, userId, profId, main}: PostProps) => {
+const Post = ({ id, likes, text, retweets, paramId, timestamp ,retweetedFrom,  profName, avatar, post, userId, profId, main}: PostProps) => {
 
 
     const [liked, setLiked] = useState(false)
-    const [tweeted, setTweeted] = useState(false)
     const [editText, setEditText] = useState('')
     const [editing, setEditing] = useState(false)
+    const [profNum, setProfNum]= useState(Number(profId))
 
 
 
@@ -40,7 +39,6 @@ const Post = ({key, id, likes, text, retweets, timestamp , comments, fullName, a
 
     const [deletePost] = useDeletePostMutation<IPost>()
     const [updatePost]= useUpdatePostMutation<IPost>()
-    const [changeLikeCount] = useChangeLikesCountMutation()
     const [retweetPost] = useCreatePostMutation()
 
     const handleDeleteClick = () => {
@@ -62,33 +60,61 @@ const Post = ({key, id, likes, text, retweets, timestamp , comments, fullName, a
     };
 
     const retweet = () => {
-        retweetPost({text:text, userId: 1, name: fullName})
+        retweetPost({text:text, userId: Number(profId)})
         updatePost({...post, retweets: post.retweets + 1})
-        setTweeted(true)
+
     }
 
-    if(main){
-        profId = '1'
-    }
+    useEffect(()=>{
+        paramId? setProfNum(Number(paramId)) : setProfNum(Number(profId))
+    }, [paramId])
+
 
     return (
-        <div className={(userId === Number(profId))? s.userList : s.show}>
-            <div className={s.post}>
+        <div className={((userId ===  profNum))? s.userList : s.show}>
+
+            <div className={s.imgWrapper}>
                 <img src={avatar} alt=""/>
             </div>
-            <div>{editing?  <input type="text" value={editText} onChange={event => setEditText(event.target.value)}/> : text}</div>
-            <div>
-                <span onClick={() => editLikeCount(liked? -1: +1)}>{likes}like</span>
-                <span onClick={() => tweeted? '' : retweet()}>{retweets}retweets</span>
-                {main &&
-                    <div>
-                        {
-                    editing ? <button onClick={handleUpdateClick}>Save</button> :
-                        <button onClick={() => setEditing(true)}>Edit</button>
-                }
-                    <button onClick={() => handleDeleteClick()}>Delete</button>
-                </div>}
+
+
+            <div className={s.postText}>
+                <div className={s.postText__fullName}>
+                    <h2>{profName}</h2>
+                    {main &&
+
+                        <div  className={s.activeButtons}>
+                            <button className={s.e_button} onClick={editing ? handleUpdateClick : () => setEditing(true)}>
+                                {editing ? 'Save' : 'Edit'}
+                            </button>
+                            <button className={s.d_button} onClick={() => handleDeleteClick()}>
+                                Delete
+                            </button>
+                        </div>
+
+                    }
+                </div>
+
+                <div className={s.postText__text}>
+                    {editing ?
+                        <input className={s.textInput} placeholder={'Edit post...'} value={editText}
+                                onChange={event => setEditText(event.target.value)}/> : text}
+                </div>
+
+                <div className={s.postText__likes}>
+                    <span onClick={() => editLikeCount(liked ? -1 : +1)} style={liked? {'color': 'red'}: {'color': 'black'}}>{likes} likes</span>
+                    <span onClick={() => retweet()}>{retweets} retweets</span>
+                </div>
             </div>
+
+
+
+
+
+
+
+
+
 
         </div>
     );

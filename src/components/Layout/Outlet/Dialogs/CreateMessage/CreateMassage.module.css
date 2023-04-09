@@ -1,3 +1,15 @@
-
+.createMessage {
+  display: flex;
+  flex-grow: 1;
+  height: 2em;
+  font-size: 1rem;
+}
+.createMessage input {
+  flex-grow: 1;
+}
+.createMessage button {
+  margin-left: auto;
+  background: #008fb3;
+}
 
 /*# sourceMappingURL=CreateMassage.module.css.map */

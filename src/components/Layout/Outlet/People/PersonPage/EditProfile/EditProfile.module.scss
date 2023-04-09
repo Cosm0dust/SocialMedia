@@ -1,33 +1,156 @@
-.userList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.formState{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  max-height: 90vh;
+  overflow: auto;
 
-  li {
+  h2{
+    font-size: 2em;
+    color: #0077cc;
+  }
+
+  input{
+    border: 1px solid  #0077cc;
+    border-radius: 30px;
+    height: 2em;
+    width: 100%;
+    padding:0 10%;
+    outline: none;
+    font-size: inherit;
+  }
+
+  label{
     display: flex;
+    gap: 0.5em;
     align-items: center;
-    margin-bottom: 1rem;
 
-    img {
-      width: 5rem;
-      height: 5rem;
-      border-radius: 50%;
-      margin-right: 1rem;
+
+  }
+
+  .bio{
+
+    align-items: flex-start;
+    .area{
+
+      resize: none;
+      width: 20em;
+      height: 7rem;
+      font-size: 1rem;
     }
 
-    div {
-      h3 {
-        font-size: 1.5rem;
-        margin: 0;
-      }
+    .area::-webkit-scrollbar{
+      width: 0.3em;
+    }
 
-      p {
-        margin: 0;
-      }
 
-      p + p {
-        margin-top: 0.5rem;
-      }
+
+    .area::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+
+    .area::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    .area::-webkit-scrollbar-thumb:hover {
+      background: #555;
     }
   }
+
+  .interests{
+    display: flex;
+
+    span{
+      align-self: flex-start;
+    }
+
+    &__fields{
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+
+      div{
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+
+
+        .d_button{
+          height: 1.5em;
+          width: 3.7em;
+          background: #FF4742;
+          border: 1px solid #FF4742;
+          border-radius: 6px;
+          box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+          box-sizing: border-box;
+          color: #FFFFFF;
+          cursor: pointer;
+          display: inline-block;
+          font-weight: 800;
+          outline: 0;
+          text-align: center;
+          font-size: 1rem;
+        }
+
+        .d_button:hover,
+        .d_button:active {
+          background-color: initial;
+          background-position: 0 0;
+          color: #FF4742;
+        }
+
+        .d_button:active {
+          opacity: .5;
+        }
+      }
+
+    }
+  }
+
+
+
+
+  .button1 {
+    padding: 0 1em;
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.15385;
+    outline: none;
+    height: 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  .button1:hover,
+  .button1:focus {
+    background-color: #07c;
+  }
+
+  .button1:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+
+  .button1:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
 }
+

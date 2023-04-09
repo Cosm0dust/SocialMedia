@@ -1,3 +1,43 @@
-
+.new {
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.new__header {
+  display: flex;
+}
+.new__header .smallImgWrapper {
+  min-width: 5em;
+  height: 5em;
+}
+.new__header .smallImgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.new__header div span {
+  font-weight: 500;
+  font-style: italic;
+}
+.new .imgWrapper {
+  width: 100%;
+  height: 20em;
+}
+.new .imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.new__footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.new__footer div span {
+  font-weight: 500;
+  font-style: oblique;
+}
 
 /*# sourceMappingURL=New.module.css.map */

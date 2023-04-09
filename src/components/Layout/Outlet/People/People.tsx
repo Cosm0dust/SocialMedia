@@ -24,14 +24,16 @@ function People() {
     return (
         <ul className={s.userList}>
             {data && (data as unknown as Array<IUser>)?.map((user: IUser) => (
-                <Link key={user.id} to={`/people/${user.id}`}>
+                <Link className={s.link} key={user.id} to={`/people/${user.id}`}>
                     <li className={s.userItem} >
                 <img className={s.userImage} src={user.avatar} alt={user.fullName} />
                 <div className={s.userInfo}>
                     <h3 className={s.userName}>{user.fullName}</h3>
-                    <p>{user.email}</p>
-                    <p>{user.phone}</p>
-                    <p>{user.city}</p>
+                    <div>
+                        <p>Email: {user.email}</p>
+                        <p>Phone: {user.phone}</p>
+                        <p>City: {user.city}</p>
+                    </div>
                 </div>
             </li>
                 </Link>

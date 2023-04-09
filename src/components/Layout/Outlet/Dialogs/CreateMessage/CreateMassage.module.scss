@@ -1,0 +1,13 @@
+.createMessage{
+  display: flex;
+  flex-grow: 1;
+  height: 2em;
+  font-size: 1rem;
+  input{
+    flex-grow: 1;
+  }
+  button{
+    margin-left: auto;
+    background: #008fb3;
+  }
+}

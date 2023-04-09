@@ -12,9 +12,12 @@ const Dialogs = () => {
             <div className={s.dialogs__nav} >
                 <DialogNav/>
             </div>
-            <div>
-                <Dialog/>
-                <CreateMassage />
+            <div className={s.dialogs__place}>
+                <div className={s.dialogs__place_field}>
+                    <CreateMassage/>
+                </div>
+                <div className={s.dialogs__place_dialog}><Dialog/></div>
+
             </div>
         </div>
     );

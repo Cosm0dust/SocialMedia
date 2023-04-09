@@ -1,5 +1,19 @@
 .dialogs {
   display: flex;
+  gap: 0.7em;
+  height: 35em;
+}
+.dialogs__nav {
+  width: auto;
+}
+.dialogs__place {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #73baff;
+}
+.dialogs__place_dialog {
+  overflow: auto;
 }
 
 /*# sourceMappingURL=Dialogs.module.css.map */

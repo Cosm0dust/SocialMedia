@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: #61dafb;
+}
+.wrapper p {
+  font-size: 1.5rem;
+  margin: 2em 0 1em 0;
+}
+.wrapper p span {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=LoginPage.module.css.map */

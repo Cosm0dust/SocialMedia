@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
-import s from './UserInfo.module.css';
+import styles from './UserInfo.module.css';
 import {IUser} from "../../../../../../models/models";
-import styles from "../../../Profile/Profile.module.css";
+import Button1 from "../../../../../../UIelems/Button1/Button1";
 
-interface PostsProps {
+interface UserInfoProps {
     user: IUser
     setModal: (modal: boolean) => void;
     main: boolean | null
 }
 
-const Posts = ({user, setModal, main}: PostsProps) => {
+const UserInfo = ({user, setModal, main}: UserInfoProps) => {
 
 
     return (
@@ -18,21 +18,24 @@ const Posts = ({user, setModal, main}: PostsProps) => {
                 <img src={user.avatar} alt={user.fullName}/>
             </div>
             <div className={styles.personInfo}>
-                <h1>{user.fullName}</h1>
-                {main && <button onClick={(event: React.MouseEvent<HTMLButtonElement>) => setModal(true)}>Edit</button>}
-                <p>{user.quote}</p>
-                <div className={styles.info}>
+                <div className={styles.personInfo__header}>
+                    <h1>{user.fullName}</h1>
+                    {main &&
+                        <Button1 text={'Edit'} onClick={(event: React.MouseEvent<HTMLButtonElement>) => setModal(true)}/>}
+                </div>
+                <div className={styles.personInfo__quote}>{user.quote}</div>
+                <div className={styles.personInfo__info}>
                     <h2>Information:</h2>
                     <p>Age: {user.age}</p>
                     <p>Email: {user.email}</p>
                     <p>Phone: {user.phone}</p>
                     <p>City: {user.city}</p>
                     <p>Intrests: <span>{user.interests?.join(', ')}</span></p>
-                    <p>Bio information: {user.bio}</p>
+                    <p className={styles.bio}>Bio information: {user.bio}</p>
                 </div>
             </div>
         </div>
     );
 };
 
-export default Posts;
+export default UserInfo;

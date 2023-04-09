@@ -1,0 +1,13 @@
+.footerPage{
+  min-height: 35em;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  h1{
+    text-align: center;
+  }
+
+}

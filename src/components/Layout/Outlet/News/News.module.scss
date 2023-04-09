@@ -1,3 +1,15 @@
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+
+  &__link{
+    text-decoration: none;
+    color: black;
+  }
+}
+
 .page_wrapper{
   margin-top: 30px;
   display: flex;

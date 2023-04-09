@@ -1,4 +1,25 @@
 .dialogs{
   display: flex;
+  gap: 0.7em;
+  height: 35em;
+
+
+  &__nav{
+    width: auto;
+  }
+
+  &__place{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #73baff;
+
+   &_dialog{
+
+     overflow: auto;
+    }
+
+
+  }
 
 }

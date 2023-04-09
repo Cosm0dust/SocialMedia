@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="314a4c82-77c7-495e-acbf-a7da7ca5f249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Button1/Button1.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button1/Button1.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button1/Button1.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button1/Button1.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button2/Button2.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button2/Button2.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button2/Button2.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button2/Button2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Login/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/LoginPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Registration/RegPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Registration/SignUp/SignUp.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Accessibility.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Authenticity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Community.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Confidential.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Diversity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Innovation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../components/Layout/Outlet/FooterPages/Policies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils/FooterComponents.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Fake.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/Logins.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/RegPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Registration/RegPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/SignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/AuthPages/Registration/SignUp/SignUp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/AuthPages/Login/SignsUp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/People.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/People.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/People.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/People.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/PersonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/Posts/Posts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/People/PersonPage/UserInfo/UserInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../components/Layout/Outlet/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../models/models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/slices/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../store/slices/userSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/pages.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2O607rFqtypunwMGP0ABMwNDOte" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Ivan/WebstormProjects/react-ui-collection",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314a4c82-77c7-495e-acbf-a7da7ca5f249" name="Changes" comment="" />
+      <created>1680865559833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680865559833</updated>
+      <workItem from="1680865561184" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

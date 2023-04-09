@@ -24,7 +24,7 @@ const Dialog = () => {
 
     const collectedMessages= [...(messagesSentToRecipient || []), ...(messagesSentToMainId || [])]
 
-    console.log(collectedMessages)
+
 
 
     const compareMessages = (a: IMessage, b: IMessage) => {
@@ -33,11 +33,12 @@ const Dialog = () => {
 
     return (
         <div>
-            <ul className={s.userList}>
+            <ul className={s.dialog}>
                 {   collectedMessages
                     ?.sort(compareMessages)
+                    ?.reverse()
                     ?.map((message: IMessage) => (
-                    <div style={message.userId === Number(mainId)? {color: 'red'}: {color: 'blue'}}>{message.text}</div>
+                    <div className={message.userId === Number(mainId)? s.sender : s.receiver}> {message.text}</div>
                 )) }
             </ul>
         </div>

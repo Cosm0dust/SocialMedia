@@ -6,9 +6,10 @@ import {
     useGetUserByIdQuery
 } from "../../../../store/users.api";
 import s from './News.module.css'
-import {INews, IPost} from "../../../../models/models";
+import {INews, IPost, Source} from "../../../../models/models";
 import New from "./New/New";
 import {getPageCount, getPagesArray} from "../../../../utils/pages";
+import {Link} from "react-router-dom";
 
 const News = () => {
 
@@ -27,20 +28,26 @@ const News = () => {
         },
     )
 
-    useEffect(()=>{
 
-    }, [page])
 
 
     return (
-        <div>
+        <div className={s.news}>
             {
                 data1 && (data1 as INews[]).map((n: INews) =>(
-                    <New
+                    <Link className={s.news__link} to={n.url}>
+                        <New
                         key={+n.title}
                         title={n.title}
-
+                        source={n.source}
+                        author={n.author}
+                        description={n.description}
+                        url={n.url}
+                        urlToImage={n.urlToImage}
+                        publishedAt={n.publishedAt}
+                        content={n.content}
                     />
+                    </Link>
                 ))
             }
             <div className={s.page_wrapper}>{pagesArray.map(p =>

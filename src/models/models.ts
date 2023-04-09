@@ -1,9 +1,13 @@
 import {FetchBaseQueryError} from "@reduxjs/toolkit/query";
 import {SerializedError} from "@reduxjs/toolkit";
+import {ReactElement} from "react";
 
+export interface FooterSection {
+    name: string;
+    component: () => ReactElement;
+}
 
-
-interface Source  {
+export interface Source  {
     id: string;
     name: string;
 };
@@ -45,7 +49,9 @@ export interface IPost {
     retweets: number;
     likes: number;
     userId: number;
+    fullName?: string;
     retweetedFrom?: string;
+    name?: string
 }
 
 export interface IUser {

@@ -1,5 +1,17 @@
 .nav{
     display: flex;
     flex-direction: column;
+    gap: 1em;
+
+    .item {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+    .active {
+        color: gold;
+        text-decoration: none;
+    }
+
 }
 

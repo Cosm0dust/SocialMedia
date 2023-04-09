@@ -1,6 +1,15 @@
 .nav {
   display: flex;
   flex-direction: column;
+  gap: 1em;
+}
+.nav .item {
+  color: darkblue;
+  text-decoration: none;
+}
+.nav .active {
+  color: gold;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=DialogNav.module.css.map */

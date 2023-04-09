@@ -1,0 +1,143 @@
+:root {
+  --main-color: #61dafb;
+  --focus-color:#73baff;
+  --disabled-color:#9c9c9c;
+  --button-color: #0cf;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+}
+.formWrapper .formInput .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.5em;
+}
+.formWrapper .formInput .container__label {
+  padding: 0.1em 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--main-color);
+  min-width: 5em;
+}
+.formWrapper .formInput .container__field {
+  appearance: none;
+  outline-style: none;
+  box-shadow: none;
+  font-size: 1rem;
+  width: 20em;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  transition: border-color 0.4s, color 0.4s;
+  padding: 0.5em 15px;
+}
+.formWrapper .formInput .container__field::placeholder {
+  color: var(--main-color);
+  transition: color 0.4s;
+}
+.formWrapper .formInput .container__field:focus {
+  border-color: var(--focus-color);
+  color: var(--focus-color);
+}
+.formWrapper .formInput .container__field:focus + .container__label {
+  color: var(--focus-color);
+}
+.formWrapper .formInput .container__field:focus::placeholder {
+  border-color: var(--focus-color);
+  color: var(--focus-color);
+}
+.formWrapper .formInput .error {
+  color: red;
+}
+.formWrapper .formButton {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.formWrapper .formButton:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--button-color);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.formWrapper .formButton:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.formWrapper .formButton:hover {
+  color: #fff;
+}
+.formWrapper .formButton:hover:before {
+  width: 100%;
+}
+.formWrapper .formButtonError {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.formWrapper .formButtonError:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.formWrapper .formButtonError:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #b30000;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.formWrapper .formButtonError:hover {
+  color: #fff;
+}
+.formWrapper .formButtonError:hover:before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=SignUp.module.css.map */
